@@ -1,0 +1,292 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCon 2024 - Homepage</title>
+</head>
+<body>
+ <!-- Header Section -->
+    <header>
+        <h1>TechCon 2024</h1>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Conference Introduction Section -->
+        <section>
+            <h2>Welcome to TechCon 2024</h2>
+            <p>TechCon 2024 is the premier conference for technology enthusiasts and professionals. Join us to explore the latest trends in tech, network with industry leaders, and discover new opportunities!</p>
+
+            <!-- Promotional Video Section -->
+            <video controls>
+                <source src="promo-video.mp4" type="video/mp4">
+                <source src="promo-video.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+          <h2>History</h2>
+            <p>TechCon was established in 2010 to bring together technology enthusiasts, professionals, and thought leaders from around the world. Over the years, it has grown into a global platform for innovation and collaboration.</p>
+            <img src="history.jpg" alt="Historical moments of TechCon">
+        </article>
+
+        <article>
+            <h2>Mission</h2>
+            <p>Our mission is to inspire and empower individuals through cutting-edge technology, fostering creativity, innovation, and solutions for a better tomorrow.</p>
+            <img src="mission.jpg" alt="Representation of TechCon's mission">
+        </article>
+
+        <article>
+            <h2>Past Speakers</h2>
+            <p>TechCon has hosted numerous notable speakers, including:</p>
+            <ul>
+                <li><strong>Jane Doe</strong> - Renowned AI Specialist</li>
+                <li><strong>John Smith</strong> - Blockchain Pioneer</li>
+                <li><strong>Emily Zhang</strong> - Cybersecurity Advocate</li>
+            </ul>
+            <img src="speakers.jpg" alt="Previous speakers at TechCon">
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule for TechCon 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Schedule for TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Conference Schedule</h2>
+            <table>
+                <caption>Detailed Schedule of Events for TechCon 2024</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Session</th>
+                        <th scope="col">Speaker</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00 AM - 10:00 AM</td>
+                        <td>Opening Keynote: The Future of Technology</td>
+                        <td>Dr. Jane Doe</td>
+                    </tr>
+                    <tr>
+                        <td>10:15 AM - 11:15 AM</td>
+                        <td>Panel Discussion: AI and Society</td>
+                        <td>Various Speakers</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM - 12:30 PM</td>
+                        <td>Workshop: Building Smart Applications</td>
+                        <td>John Smith</td>
+                    </tr>
+                    <tr>
+                        <td>02:00 PM - 03:00 PM</td>
+                        <td>Case Studies: Tech Startups</td>
+                        <td>Emily Zhang</td>
+                    </tr>
+                    <tr>
+                        <td>03:15 PM - 04:15 PM</td>
+                        <td>Closing Remarks and Networking</td>
+                        <td>Organizing Committee</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for TechCon 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Registration Form</h2>
+            <form action="submit_registration.php" method="post">
+                <!-- Name Field -->
+                <div>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full_name" required>
+                </div>
+
+                <!-- Email Field -->
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Password Fields -->
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm_password" required>
+                </div>
+
+                <!-- Terms and Conditions -->
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="terms.html" target="_blank">terms and conditions</a></label>
+                </div>
+
+                <!-- Submit Button -->
+                <div>
+                    <button type="submit">Register Now</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - TechCon 2024</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <section>
+      <h2>Contact Information</h2>
+      <p>If you have any questions or need more information, please feel free to reach out to us.</p>
+      
+      <ul>
+        <li>Email: <a href="mailto:info@techcon2024.com">info@techcon2024.com</a></li>
+        <li>Follow Us on Social Media:</li>
+        <ul>
+          <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a></li>
+          <li><a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a></li>
+          <li><a href="https://instagram.com/TechCon2024" target="_blank">Instagram</a></li>
+        </ul>
+      </ul>
+
+      <h3>Conference Venue</h3>
+      <!-- Embed Google Maps with responsive design -->
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.6799426817675!2d-122.47164078415464!3d37.80436041691427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809bfb49062f%3A0x84ac2b5c9f914b10!2sTechCon%202024%20Venue!5e0!3m2!1sen!2sus!4v1633124182532!5m2!1sen!2sus"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Contact Us Form Section -->
+    <section>
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
